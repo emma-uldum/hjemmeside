@@ -5,8 +5,7 @@
   <title>Galleri</title>
   <link rel="stylesheet" href="../style.css">
 </head>
-
-<body background="../images/oldpaper.jpg" text="#000000" link="#0000EE" vlink="#551A8B" alink="#FF0000">
+<body background="../images/oldpaper.jpg" text="#000000" link="#0000EE" vlink="#551A8B" alink="#FF0000" style="cursor: url('https://emma-uldum.github.io/hjemmeside/layout/mus2.cur'), auto;">
 <center>
   <table width="800" cellpadding="10" cellspacing="0" border="1" bgcolor="#FFF8DC">
     <tr>
@@ -15,7 +14,6 @@
         <hr size="1" color="#000000">
       </td>
     </tr>
-
     <tr>
       <td align="center" bgcolor="#F5DEB3">
         <font face="Times New Roman">
@@ -26,7 +24,6 @@
         </font>
       </td>
     </tr>
-
     <tr>
       <td align="center">
         <font face="Times New Roman" size="3">
@@ -44,7 +41,6 @@
         </font>
       </td>
     </tr>
-
     <tr>
       <td align="center">
         <font face="Times New Roman" size="2">
@@ -55,5 +51,17 @@
     </tr>
   </table>
 </center>
+
+<script>
+document.body.style.cursor = "url('https://emma-uldum.github.io/hjemmeside/layout/mus2.cur'), auto";
+document.querySelectorAll('*').forEach(el => {
+  if(el.tagName !== 'A') {
+    el.style.cursor = "url('https://emma-uldum.github.io/hjemmeside/layout/mus2.cur'), auto";
+  }
+});
+document.querySelectorAll('a').forEach(el => {
+  el.style.cursor = "url('https://emma-uldum.github.io/hjemmeside/layout/mus2.cur'), pointer";
+});
+</script>
 </body>
 </html>
