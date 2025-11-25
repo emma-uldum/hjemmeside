@@ -2,20 +2,20 @@ body {
   background-color: #EEDFCC;
   font-family: "Times New Roman", serif;
   margin: 20px;
-  cursor: url('layout/mus 2.png'), auto;
+  cursor: url('layout/mus2.png'), auto;
   body, body * {
-  cursor: url('layout/mus 2.png'), auto !important;
+  cursor: url('layout/mus2.png'), auto !important;
 }
 
 a, a * {
-  cursor: url('layout/mus 2.png'), pointer !important;
+  cursor: url('layout/mus2.png'), pointer !important;
 }
 table {
   border-collapse: collapse;
 }
 a {
   text-decoration: none;
-  cursor: url('layout/mus 2.png'), pointer;
+  cursor: url('layout/mus2.png'), pointer;
 }
 a:hover {
   text-decoration: underline;
