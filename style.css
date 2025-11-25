@@ -2,51 +2,51 @@ body {
   background-color: #EEDFCC;
   font-family: "Times New Roman", serif;
   margin: 20px;
-  cursor: url('https://emma-uldum.github.io/hjemmeside/layout/mus2.png'), auto !important;
+  cursor: url('https://emma-uldum.github.io/hjemmeside/layout/mus2.cur'), auto !important;
 }
 
 /* Force cursor on ALL elements */
 *, *::before, *::after {
-  cursor: url('https://emma-uldum.github.io/hjemmeside/layout/mus2.png'), auto !important;
+  cursor: url('https://emma-uldum.github.io/hjemmeside/layout/mus2.cur'), auto !important;
 }
 
 table {
   border-collapse: collapse;
-  cursor: url('https://emma-uldum.github.io/hjemmeside/layout/mus2.png'), auto !important;
+  cursor: url('https://emma-uldum.github.io/hjemmeside/layout/mus2.cur'), auto !important;
 }
 
 td, th, tr {
-  cursor: url('https://emma-uldum.github.io/hjemmeside/layout/mus2.png'), auto !important;
+  cursor: url('https://emma-uldum.github.io/hjemmeside/layout/mus2.cur'), auto !important;
 }
 
 font {
-  cursor: url('https://emma-uldum.github.io/hjemmeside/layout/mus2.png'), auto !important;
+  cursor: url('https://emma-uldum.github.io/hjemmeside/layout/mus2.cur'), auto !important;
 }
 
 a {
   text-decoration: none;
-  cursor: url('https://emma-uldum.github.io/hjemmeside/layout/mus2.png'), pointer !important;
+  cursor: url('https://emma-uldum.github.io/hjemmeside/layout/mus2.cur'), pointer !important;
 }
 
 a:hover {
   text-decoration: underline;
-  cursor: url('https://emma-uldum.github.io/hjemmeside/layout/mus2.png'), pointer !important;
+  cursor: url('https://emma-uldum.github.io/hjemmeside/layout/mus2.cur'), pointer !important;
 }
 
 h1, h2, h3 {
   color: #000000;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
-  cursor: url('https://emma-uldum.github.io/hjemmeside/layout/mus2.png'), auto !important;
+  cursor: url('https://emma-uldum.github.io/hjemmeside/layout/mus2.cur'), auto !important;
 }
 
 p {
   line-height: 1.5em;
   text-align: justify;
-  cursor: url('https://emma-uldum.github.io/hjemmeside/layout/mus2.png'), auto !important;
+  cursor: url('https://emma-uldum.github.io/hjemmeside/layout/mus2.cur'), auto !important;
 }
 
 img {
   border: 1px solid #333;
-  cursor: url('https://emma-uldum.github.io/hjemmeside/layout/mus2.png'), auto !important;
+  cursor: url('https://emma-uldum.github.io/hjemmeside/layout/mus2.cur'), auto !important;
 }
