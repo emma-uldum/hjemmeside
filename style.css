@@ -2,33 +2,51 @@ body {
   background-color: #EEDFCC;
   font-family: "Times New Roman", serif;
   margin: 20px;
-  cursor: url('layout/mus2.png'), auto;
-  body, body * {
-  cursor: url('layout/mus2.png'), auto !important;
+  cursor: url('/hjemmeside/layout/mus2.png'), auto !important;
 }
 
-a, a * {
-  cursor: url('layout/mus2.png'), pointer !important;
+/* Force cursor on ALL elements */
+*, *::before, *::after {
+  cursor: url('/hjemmeside/layout/mus2.png'), auto !important;
 }
+
 table {
   border-collapse: collapse;
+  cursor: url('/hjemmeside/layout/mus2.png'), auto !important;
 }
+
+td, th, tr {
+  cursor: url('/hjemmeside/layout/mus2.png'), auto !important;
+}
+
+font {
+  cursor: url('/hjemmeside/layout/mus2.png'), auto !important;
+}
+
 a {
   text-decoration: none;
-  cursor: url('layout/mus2.png'), pointer;
+  cursor: url('/hjemmeside/layout/mus2.png'), pointer !important;
 }
+
 a:hover {
   text-decoration: underline;
+  cursor: url('/hjemmeside/layout/mus2.png'), pointer !important;
 }
+
 h1, h2, h3 {
   color: #000000;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
+  cursor: url('/hjemmeside/layout/mus2.png'), auto !important;
 }
+
 p {
   line-height: 1.5em;
   text-align: justify;
+  cursor: url('/hjemmeside/layout/mus2.png'), auto !important;
 }
+
 img {
   border: 1px solid #333;
+  cursor: url('/hjemmeside/layout/mus2.png'), auto !important;
 }
