@@ -3,6 +3,12 @@ body {
   font-family: "Times New Roman", serif;
   margin: 20px;
   cursor: url('layout/mus 2.png'), auto;
+  body, body * {
+  cursor: url('layout/mus 2.png'), auto !important;
+}
+
+a, a * {
+  cursor: url('layout/mus 2.png'), pointer !important;
 }
 table {
   border-collapse: collapse;
